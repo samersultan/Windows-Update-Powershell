@@ -2,6 +2,8 @@
 
 ````
 Install-Module PSWindowsUpdate
+
+Install-Module -Name PSWindowsUpdate -Force
 ````
 
 ## Check for updates 
