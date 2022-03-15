@@ -9,3 +9,9 @@ Install-Module PSWindowsUpdate
 ````
 Get-WindowsUpdate
 ````
+
+## Install Updates
+
+````
+Install-WindowsUpdate
+````
