@@ -17,3 +17,9 @@ Get-WindowsUpdate
 ````
 Install-WindowsUpdate
 ````
+
+## Scheduled Task to Install Updates
+
+````
+Install-WindowsUpdate -AcceptAll -AutoReboot
+````
