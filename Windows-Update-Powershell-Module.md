@@ -23,3 +23,7 @@ Install-WindowsUpdate
 ````
 Install-WindowsUpdate -AcceptAll -AutoReboot
 ````
+
+```
+Install-WindowsUpdate -MicrosoftUpdate -AcceptAll -IgnoreReboot -Verbose
+```
