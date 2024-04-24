@@ -1,10 +1,17 @@
 ## Install Module 
 
-````
+```
 Install-Module PSWindowsUpdate
 
+```
+## To Force Install 
+
+```
 Install-Module -Name PSWindowsUpdate -Force
 ````
+
+_________
+
 
 ## Check for updates 
 
