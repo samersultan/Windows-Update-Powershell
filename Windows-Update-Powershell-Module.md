@@ -29,6 +29,13 @@ Get-WindowsUpdate
 Install-WindowsUpdate
 ````
 
+To List avilible Updates
+
+```
+Get-WindowsUpdate -MicrosoftUpdate -Verbose
+```
+
+
 ## Scheduled Task to Install Updates
 
 ````
