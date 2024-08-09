@@ -20,7 +20,7 @@ _________
 ## Check for updates 
 
 ````
-Get-WindowsUpdate -ListUpdates
+Get-WindowsUpdate
 ````
 
 ## Install Updates
