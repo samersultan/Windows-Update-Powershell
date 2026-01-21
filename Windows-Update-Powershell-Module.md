@@ -54,6 +54,11 @@ Get Updates direct from Microsoft Online  -No Reboot
 Install-WindowsUpdate -MicrosoftUpdate -AcceptAll -IgnoreReboot -Verbose
 ```
 
+View install history:
+
+```
+Get-WUHistory | Select-Object -First 50
+```
 
 
 Testing Optional Updates: https://old.reddit.com/r/sysadmin/comments/m6ao6f/pswindowsupdate_and_optional_quality_updates/
